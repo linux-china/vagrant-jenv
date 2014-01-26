@@ -8,6 +8,6 @@ $ vagrant plugin install vagrant-jenv
 ### Code
 
     config.vm.provision :jenv do |jenv|
-        jenv.maven = '3.1.1'
+        jenv.candidates = ['maven:3.1.1','ant:1.9.2']
     end
 
