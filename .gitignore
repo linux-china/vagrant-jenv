@@ -16,3 +16,10 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# IntelliJ IDEA
+.idea
+.iml
+
+# Vagrant
+.vagrant
