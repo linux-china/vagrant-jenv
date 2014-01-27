@@ -10,7 +10,7 @@ Because jenv needs curl, unzip etc tools, please use puppet to install curl and 
 ### Code
 
     config.vm.provision :jenv do |jenv|
-        jenv.candidates = ['maven:3.1.1','ant:1.9.2']
+        jenv.candidates = ['maven 3.1.1','ant 1.9.2']
     end
 
 ### Development
