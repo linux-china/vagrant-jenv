@@ -5,6 +5,8 @@ jenv provision for Vagrant
 ### Install
 $ vagrant plugin install vagrant-jenv
 
+Because jenv needs curl, unzip etc tools, please use puppet to install curl and unzip package
+
 ### Code
 
     config.vm.provision :jenv do |jenv|
