@@ -83,7 +83,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      puppet.manifest_file  = "site.pp"
   end
   config.vm.provision :jenv do |jenv|
-    jenv.candidates = ['ant 1.9.3', "maven 3.1.1"]
+    jenv.candidates = ['java 1.7.0_51', 'ant 1.9.3', "maven 3.1.1"]
   end
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
