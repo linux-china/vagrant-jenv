@@ -8,10 +8,12 @@ module VagrantPlugins
       Vagrant jenv plugin
       DESC
 
+=begin
       command "jenv-info" do
         require_relative "vagrant-jenv/command"
         Command
       end
+=end
 
 
       config(:jenv, :provisioner) do
